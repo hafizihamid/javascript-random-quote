@@ -4,8 +4,19 @@
     <title>Hello Webpack</title>
   </head>
   <body>
-    <div>
-      <h1>Hello Webpack</h1>
+    <div class="app">
+      <header>Random Quotes</header>
+      <section class="quotes">
+        <div class="quote-text" id="js-quote-text"></div>
+      </section>
+      <section class="controls">
+        <button type="button" id="js-new-quote" class="new-quote button">
+          Generate a new quote
+        </button>
+        <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer"
+          >Tweet it!</a
+        >
+      </section>
     </div>
     <script src="./bundle.js"></script>
   </body>
